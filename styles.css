@@ -1,0 +1,62 @@
+/* Set some basic styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* Style the input field and buttons */
+input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style the collage container */
+#collageContainer {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#collageContainer img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+/* Style the reset button */
+#resetButton {
+  background-color: #e74c3c;
+}
+
